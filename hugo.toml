@@ -1,0 +1,34 @@
+title = "akku's website"
+copyright = "-akku-"
+languageCode = 'ja-jp'
+timeZone = "Asia/Tokyo"
+hasCJKLanguage = true
+
+theme = "hugo-bearcub"
+enableRobotsTXT = true
+
+[permalinks]
+  blog = "/blog/:filename/"
+
+[menus]
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Blog'
+    pageRef = '/blog'
+    weight = 20
+
+[params]
+  description = "akku's website"
+  favicon = "images/favicon.png"
+  madeWith = "made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+
+  [params.author]
+    name = "-akku-"
+    # email = "root@akku.dedyn.io"
+
+  [params.social]
+    twitter = "akku1139"
